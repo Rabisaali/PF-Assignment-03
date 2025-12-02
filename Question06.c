@@ -48,7 +48,7 @@ void consumeNewline() {
     while ((c = getchar()) != '\n' && c != EOF) {}
 }
 
-/* ---------- Operations ---------- */
+// ---------- Operations ---------- 
 void addStudent() {
     Student s;
     printf("Enter Student ID: ");
